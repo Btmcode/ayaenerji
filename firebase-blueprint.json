@@ -1,0 +1,100 @@
+{
+  "collections": [
+    {
+      "name": "requests",
+      "fields": [
+        { "name": "name", "type": "string", "required": true },
+        { "name": "phone", "type": "string", "required": true },
+        { "name": "service", "type": "string", "required": true },
+        { "name": "status", "type": "string", "required": true },
+        { "name": "createdAt", "type": "timestamp", "required": true }
+      ],
+      "securityRules": {
+        "read": "request.auth != null",
+        "create": "true",
+        "update": "request.auth != null",
+        "delete": "request.auth != null"
+      }
+    },
+    {
+      "name": "callLogs",
+      "fields": [
+        { "name": "phone", "type": "string", "required": true },
+        { "name": "duration", "type": "string", "required": true },
+        { "name": "status", "type": "string", "required": true },
+        { "name": "alert", "type": "boolean", "required": true },
+        { "name": "createdAt", "type": "timestamp", "required": true }
+      ],
+      "securityRules": {
+        "read": "request.auth != null",
+        "create": "request.auth != null",
+        "update": "request.auth != null",
+        "delete": "request.auth != null"
+      }
+    },
+    {
+      "name": "customers",
+      "fields": [
+        { "name": "name", "type": "string", "required": true },
+        { "name": "address", "type": "string", "required": true },
+        { "name": "phone", "type": "string", "required": true },
+        { "name": "totalSpent", "type": "string", "required": true },
+        { "name": "lastVisit", "type": "string", "required": true },
+        { "name": "createdAt", "type": "timestamp", "required": true }
+      ],
+      "securityRules": {
+        "read": "request.auth != null",
+        "create": "request.auth != null",
+        "update": "request.auth != null",
+        "delete": "request.auth != null"
+      }
+    },
+    {
+      "name": "jobApplications",
+      "fields": [
+        { "name": "name", "type": "string", "required": true },
+        { "name": "type", "type": "string", "required": true },
+        { "name": "phone", "type": "string", "required": true },
+        { "name": "status", "type": "string", "required": true },
+        { "name": "notes", "type": "string", "required": false },
+        { "name": "createdAt", "type": "timestamp", "required": true }
+      ],
+      "securityRules": {
+        "read": "request.auth != null",
+        "create": "true",
+        "update": "request.auth != null",
+        "delete": "request.auth != null"
+      }
+    },
+    {
+      "name": "blogPosts",
+      "fields": [
+        { "name": "title", "type": "string", "required": true },
+        { "name": "status", "type": "string", "required": true },
+        { "name": "views", "type": "number", "required": true },
+        { "name": "content", "type": "string", "required": true },
+        { "name": "createdAt", "type": "timestamp", "required": true }
+      ],
+      "securityRules": {
+        "read": "true",
+        "create": "request.auth != null",
+        "update": "request.auth != null",
+        "delete": "request.auth != null"
+      }
+    },
+    {
+      "name": "metrics",
+      "fields": [
+        { "name": "type", "type": "string", "required": true },
+        { "name": "data", "type": "map", "required": true },
+        { "name": "updatedAt", "type": "timestamp", "required": true }
+      ],
+      "securityRules": {
+        "read": "request.auth != null",
+        "create": "request.auth != null",
+        "update": "request.auth != null",
+        "delete": "request.auth != null"
+      }
+    }
+  ]
+}

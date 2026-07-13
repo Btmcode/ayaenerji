@@ -1,0 +1,6 @@
+{
+  "name": "Aya Elektrik Dijital Büyüme ve Pazarlama Yönetimi",
+  "description": "Aya Elektrik firması için özel olarak tasarlanmış; yerel SEO (Google Haritalar), rakip analizi, yapay zeka destekli arama optimizasyonu (GEO) ve içerik stratejileri yönetim paneli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
