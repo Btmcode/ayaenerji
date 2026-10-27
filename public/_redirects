@@ -1,0 +1,4 @@
+# Domain Yönlendirmeleri
+https://ayaelektrik.netlify.app/* https://ayaelektrik.com/:splat 301!
+https://www.ayaelektrik.com/* https://ayaelektrik.com/:splat 301!
+/* /index.html 200

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="tr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="İstanbul genelinde (39 İlçe - Avrupa & Anadolu) 7/24 acil elektrikçi, klima-kombi elektrik hattı ve fuar stand kurulumu. 30 dakikada nöbetçi usta kapınızda." />
+    <meta property="og:title" content="İstanbul Acil Elektrikçi & Altyapı | 7/24 Nöbetçi Usta - Aya Elektrik" />
+    <meta property="og:description" content="İstanbul genelinde (39 İlçe - Avrupa & Anadolu) 7/24 acil elektrikçi, klima-kombi elektrik hattı ve fuar stand kurulumu. 30 dakikada nöbetçi usta kapınızda." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ayaelektrik.com/" />
+    <meta property="og:image" content="https://ayaelektrik.com/images/og/ana-sayfa-og.jpg" />
+    <meta property="og:locale" content="tr_TR" />
+    <link rel="canonical" href="https://ayaelektrik.com/" />
+    <meta name="geo.region" content="TR-34" />
+    <meta name="geo.placename" content="İstanbul" />
+    <meta name="geo.position" content="41.0082;28.9784" />
+    <meta name="ICBM" content="41.0082, 28.9784" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="İstanbul Acil Elektrikçi & Altyapı | 7/24 Nöbetçi Usta - Aya Elektrik" />
+    <meta name="twitter:description" content="İstanbul genelinde (39 İlçe - Avrupa & Anadolu) 7/24 acil elektrikçi, klima-kombi elektrik hattı ve fuar stand kurulumu. 30 dakikada nöbetçi usta kapınızda." />
+    <meta name="twitter:image" content="https://ayaelektrik.com/images/og/ana-sayfa-og.jpg" />
+    <meta name="google-adsense-account" content="ca-pub-5258362427336483" id="adsense-account-meta" />
+
+    <!-- LCP Critical Resource Preload for Mobile & Desktop -->
+    <link rel="preload" as="image" href="/images/hero-mobile.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/hero-desktop.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
+
+    <!-- Non-Blocking AdSense Lazy-Loader (Fires on first user touch/scroll or 3.5s idle, guarded by KVKK consent) -->
+    <script>
+      (function() {
+        var adsLoaded = false;
+        function initAdSense() {
+          if (adsLoaded) return;
+          try {
+            var rawConsent = localStorage.getItem('aya_cookie_consent_v2');
+            if (rawConsent) {
+              var consent = JSON.parse(rawConsent);
+              if (consent && consent.marketing === false) {
+                return; // KVKK Uyumu: Kullanıcı pazarlamayı reddetmişse AdSense engellenir.
+              }
+            }
+          } catch(e) {}
+
+          adsLoaded = true;
+          try {
+            var savedPubId = localStorage.getItem('aya_adsense_pub_id') || 'ca-pub-5258362427336483';
+            var meta = document.getElementById('adsense-account-meta');
+            if (meta && savedPubId.startsWith('ca-pub-')) meta.setAttribute('content', savedPubId);
+            
+            var s = document.createElement('script');
+            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(savedPubId);
+            s.crossOrigin = 'anonymous';
+            s.async = true;
+            document.head.appendChild(s);
+          } catch(e) {}
+        }
+        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(ev) {
+          window.addEventListener(ev, initAdSense, { once: true, passive: true });
+        });
+        setTimeout(initAdSense, 3500);
+      })();
+    </script>
+
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="theme-color" content="#0b2e59" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <title>İstanbul Acil Elektrikçi & Altyapı | 7/24 Nöbetçi Usta - Aya Elektrik</title>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

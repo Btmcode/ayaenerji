@@ -1,0 +1,21 @@
+{
+  "name": "Aya Elektrik",
+  "short_name": "Aya Elektrik",
+  "description": "7/24 Acil Elektrikçi - İstanbul Avrupa Yakası",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b2e59",
+  "theme_color": "#0b2e59",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
