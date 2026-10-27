@@ -21,45 +21,9 @@
     <meta name="twitter:image" content="https://ayaelektrik.com/images/og/ana-sayfa-og.jpg" />
     <meta name="google-adsense-account" content="ca-pub-5258362427336483" id="adsense-account-meta" />
 
-    <!-- LCP Critical Resource Preload for Mobile & Desktop -->
-    <link rel="preload" as="image" href="/images/hero-mobile.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high" />
-    <link rel="preload" as="image" href="/images/hero-desktop.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
-
-    <!-- Non-Blocking AdSense Lazy-Loader (Fires on first user touch/scroll or 3.5s idle, guarded by KVKK consent) -->
-    <script>
-      (function() {
-        var adsLoaded = false;
-        function initAdSense() {
-          if (adsLoaded) return;
-          try {
-            var rawConsent = localStorage.getItem('aya_cookie_consent_v2');
-            if (rawConsent) {
-              var consent = JSON.parse(rawConsent);
-              if (consent && consent.marketing === false) {
-                return; // KVKK Uyumu: Kullanıcı pazarlamayı reddetmişse AdSense engellenir.
-              }
-            }
-          } catch(e) {}
-
-          adsLoaded = true;
-          try {
-            var savedPubId = localStorage.getItem('aya_adsense_pub_id') || 'ca-pub-5258362427336483';
-            var meta = document.getElementById('adsense-account-meta');
-            if (meta && savedPubId.startsWith('ca-pub-')) meta.setAttribute('content', savedPubId);
-            
-            var s = document.createElement('script');
-            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(savedPubId);
-            s.crossOrigin = 'anonymous';
-            s.async = true;
-            document.head.appendChild(s);
-          } catch(e) {}
-        }
-        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(ev) {
-          window.addEventListener(ev, initAdSense, { once: true, passive: true });
-        });
-        setTimeout(initAdSense, 3500);
-      })();
-    </script>
+    <!-- Google AdSense Auto Ads Tag -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5258362427336483"
+      crossorigin="anonymous"></script>
 
     <link rel="manifest" href="/manifest.json" />
     <link rel="icon" type="image/png" href="/favicon.png" />
