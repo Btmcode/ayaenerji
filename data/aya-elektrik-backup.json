@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "app": "Aya Elektrik - 7/24 Nöbetçi Elektrikçi & Arıza Bakım Onarım Servisi",
+    "exportDate": "2026-11-05T13:54:23.436Z",
+    "version": "2.4.0",
+    "securityAudit": "KVKK & Cyber-Security Protected (Tokens & Customer PII Sanitized)",
+    "stats": {
+      "totalRequests": 0,
+      "totalCustomers": 0,
+      "totalBlogPosts": 12
+    }
+  },
+  "settings": {
+    "companyName": "Aya Elektrik",
+    "phone": "0530 069 53 93",
+    "email": "ahmetcafoglu@hotmail.com",
+    "address": "Maltepe Mah. Yedikule Çırpıcı Yolu No: 33, Zeytinburnu / İstanbul",
+    "githubRepo": "https://github.com/Btmcode/ayaenerji",
+    "branch": "main"
+  },
+  "requests": [],
+  "customers": [],
+  "blogPosts": [
+    {
+      "id": "8",
+      "title": "Lüks Avize, Manyetik Spot ve Akıllı Led Aydınlatma Montajı (Tavan Hattı & Güvenli Bağlantı)",
+      "slug": "avize-spot-ve-akilli-aydinlatma-montaji-rehberi",
+      "category": "Aydınlatma & Dekorasyon",
+      "readTime": "4 Dk"
+    },
+    {
+      "id": "9",
+      "title": "Düşük Voltaj ve Lambalarda Titreme: Bina Ana Kolon Hattı ve Topraklama Ölçümü",
+      "slug": "bina-ana-kolon-ve-topraklama-hatti-yenileme",
+      "category": "Taahhüt & Ölçüm",
+      "readTime": "6 Dk"
+    },
+    {
+      "id": "4",
+      "title": "Eski Elektrik Panosu Değişimi ve Sigorta Yenileme Fiyatları 2026 (Yangın Güvenliği Standartları)",
+      "slug": "elektrik-panosu-degisimi-ve-sigorta-yenileme",
+      "category": "Pano Yenileme",
+      "readTime": "5 Dk"
+    },
+    {
+      "id": "7",
+      "title": "Ev ve Siteye Elektrikli Araç (EV) Şarj İstasyonu Kurulumu: Wallbox Montaj Rehberi",
+      "slug": "elektrikli-arac-ev-sarj-istasyonu-wallbox-kurulumu",
+      "category": "Yeni Nesil Enerji",
+      "readTime": "6 Dk"
+    },
+    {
+      "id": "3",
+      "title": "İstanbul Nöbetçi Elektrikçi 7/24: Gece Açık Elektrik Ustası 15-30 Dakikada Kapınızda",
+      "slug": "istanbul-nobetci-elektrikci-7-24-gece-acik-usta",
+      "category": "7/24 Acil Servis",
+      "readTime": "4 Dk"
+    },
+    {
+      "id": "6",
+      "title": "İş Yeri, Restoran ve Ofislerde Trifaze Faz Kaybı ve Ani Elektrik Kesintisi Çözümü",
+      "slug": "isyeri-ve-restoran-trifaze-faz-kaybi-arizasi",
+      "category": "Ticari Hizmetler",
+      "readTime": "5 Dk"
+    },
+    {
+      "id": "2",
+      "title": "Kaçak Akım Rölesi Sürekli Atıyor ve Tutmuyor! (Adım Adım Arıza Tespiti & Çözümü)",
+      "slug": "kacak-akim-rolesi-surekli-atiyor-ve-tutmyor",
+      "category": "Güvenlik & Pano",
+      "readTime": "6 Dk"
+    },
+    {
+      "id": "11",
+      "title": "Klima Şalter Attırıyor ve Priz Isınıyor: Klimaya Bağımsız Hat Çekimi ve V-Otomat Sigorta Seçimi (Yangın Önleme Rehberi)",
+      "slug": "klima-salter-attiriyor-klimaya-bagimsiz-hat-cekimi",
+      "category": "Acil Arıza / İklimlendirme",
+      "readTime": "5 Dk"
+    },
+    {
+      "id": "12",
+      "title": "Mutfak Tadilatında Elektrik Tesisatı: İndüksiyonlu Ocak, Ankastre Fırın ve Bulaşık Makinesi İçin Bağımsız Hat Güçlendirme",
+      "slug": "mutfak-tadilatinda-elektrik-tesisati-ve-hat-guclendirme",
+      "category": "Tadilat & Tesisat",
+      "readTime": "6 Dk"
+    },
+    {
+      "id": "10",
+      "title": "Sanayi ve Atölyeler İçin Kompanzasyon Pano Bakımı: Reaktif Ceza Önleme Rehberi",
+      "slug": "sanayi-ve-atolyeler-icin-kompanzasyon-pano-bakimi",
+      "category": "Endüstriyel Elektrik",
+      "readTime": "6 Dk"
+    },
+    {
+      "id": "5",
+      "title": "Şofben ve Termosifon Elektrik Bağlantısı Nasıl Yapılır? (Hayati Güvenlik Kuralları)",
+      "slug": "sofben-termosifon-elektrik-baglantisi-montaji",
+      "category": "Montaj & Tesisat",
+      "readTime": "5 Dk"
+    },
+    {
+      "id": "1",
+      "title": "Prizden Yanık Kokusu ve Şalterden Cızırtı Sesi Geliyorsa Ne Yapılmalı? (Acil Yangın Önleme Rehberi)",
+      "slug": "yanan-priz-ve-salter-cizirti-sesi-yangin-onleme",
+      "category": "Acil Elektrik Arıza",
+      "readTime": "5 Dk"
+    }
+  ]
+}

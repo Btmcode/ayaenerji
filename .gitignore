@@ -1,0 +1,21 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Sensitive runtime configurations & secrets (NEVER commit to GitHub)
+server/telegram_config.json
+*.key
+*.pem
+*.secret
+*.cert
+*.p12
+*.crt
+*.id_rsa
+*.id_ed25519
+telegram_config.json
+data/*.secret.json
