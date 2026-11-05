@@ -16,13 +16,13 @@ export const technicalAuthors: Record<string, Author> = {
   "ahmet-cagoglu": {
     id: "ahmet-cagoglu",
     name: "Ahmet ÇAĞOĞLU",
-    title: "Kurucu & Kıdemli Elektrik Teknisyeni (1. Sınıf Fen Adamı)",
-    role: "Başteknisyen & Tesisat Danışmanı",
-    credentials: "MYK Seviye 5 · EKAT Yüksek Gerilim & Tesisat Belgesi",
-    emoNumber: "Yetki No: 34-4892",
-    university: "Elektrik Teknik Programı & Saha İhtisası",
+    title: "Kurucu & Elektrik Teknisyeni",
+    role: "Başteknisyen & Saha Yöneticisi",
+    credentials: "MYK Seviye 5 · Elektrik Tesisat & Bakım Belgesi",
+    emoNumber: "Saha Yetki Kaydı",
+    university: "Elektrik Teknik Alanı",
     experienceYears: 18,
-    bio: "18 yılı aşkın süredir konut ve ticari binalarda elektrik arıza onarımı, dağıtım panoları revizyonu, kaçak akım koruma ve kablo altyapı yenileme alanlarında saha liderliği yapmaktadır.",
+    bio: "18 yılı aşkın süredir İstanbul genelinde konut ve ticari binalarda elektrik arıza onarımı, dağıtım panoları revizyonu, kaçak akım koruma ve kablo altyapı yenileme alanlarında saha liderliği yapmaktadır.",
     avatarText: "AÇ",
     specialties: [
       "Acil Arıza Tespiti & Sigorta Değişimi",
@@ -31,43 +31,25 @@ export const technicalAuthors: Record<string, Author> = {
       "Elektrik Yangın Güvenliği Denetimi"
     ]
   },
-  "engin-yilmaz": {
-    id: "engin-yilmaz",
-    name: "Engin YILMAZ",
-    title: "Elektrik Teknikeri & Altyapı Uzmanı",
-    role: "Teknik Editör & Standart Doğrulayıcı",
-    credentials: "TSE Yangın Koruma & Tesisat Denetim Sertifikası",
-    emoNumber: "Sertifika No: 34-5310",
-    university: "Teknik Bilimler Elektrik Bölümü",
-    experienceYears: 12,
-    bio: "Elektrikli araç (EV) şarj altyapıları, kablo kesit hesapları ve bina elektrik güvenlik testleri konularında uzmanlaşmıştır. IEC 61851 ve TSE standartlarının sahada eksiksiz uygulanmasını denetlemektedir.",
-    avatarText: "EY",
-    specialties: [
-      "Elektrikli Araç Wallbox Altyapısı",
-      "Kablo Kesit & Güç Hesaplamaları",
-      "Topraklama Ölçümü ve Paratoner",
-      "Kaçak Akım & Şebeke Güvenliği"
-    ]
-  },
-  "mustafa-kaya": {
-    id: "mustafa-kaya",
-    name: "Mustafa KAYA",
-    title: "TSE Yetkili Elektrik Fen Adamı (1. Sınıf)",
-    role: "Saha Operasyon ve Uygulama Şefi",
-    credentials: "MYK Seviye 5 · EKAT Belgeli Başteknisyen",
-    emoNumber: "Fen Adamı No: 34-8841",
-    university: "Marmara Üniversitesi Teknik Bilimler MYO",
+  "aya-teknik-ekip": {
+    id: "aya-teknik-ekip",
+    name: "Aya Elektrik Teknik Kurulu",
+    title: "Saha Denetim ve Uygulama Ekibi",
+    role: "Teknik Denetçi & Standart Doğrulayıcı",
+    credentials: "TSE ve CE Standartları Denetim Güvencesi",
+    emoNumber: "Aya Enerji Kurumsal Kalite Standartları",
+    university: "Teknik Saha ve Mühendislik Uygulamaları",
     experienceYears: 15,
-    bio: "İstanbul genelinde 15 yılı aşkın süredir 7/24 acil arıza müdahalesi, bina sayaç panoları yenileme, şofben ve klima bağımsız linye hatları kurulumunda yüzlerce başarılı saha operasyonuna liderlik etmiştir.",
-    avatarText: "MK",
+    bio: "Aya Elektrik bünyesindeki yetkili elektrik ustaları ve teknisyenlerden oluşan teknik inceleme kurulu; sitede yayınlanan rehberlerin ve saha uygulamalarının TSE ile uluslararası standartlara (HD 60364) uygunluğunu denetler.",
+    avatarText: "AE",
     specialties: [
-      "7/24 Acil Arıza ve Kısa Devre Tespiti",
-      "Monofaze / Trifaze Sayaç Panoları",
-      "Bina Zayıf Akım ve Diafon Sistemleri",
-      "Termal Kamera ile Isınma Taraması"
+      "TSE Standartlarında Güvenli Tesisat",
+      "7/24 Kesintisiz Nöbetçi Müdahale",
+      "Pano, Sigorta ve Kaçak Akım Uyumu",
+      "Mühendislik Hesaplama Doğrulamaları"
     ]
   }
 };
 
 export const defaultAuthor = technicalAuthors["ahmet-cagoglu"];
-export const defaultReviewer = technicalAuthors["engin-yilmaz"];
+export const defaultReviewer = technicalAuthors["aya-teknik-ekip"];

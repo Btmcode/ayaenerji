@@ -63,10 +63,10 @@ export default function About() {
               </Link>
               <span className="text-slate-300">·</span>
               <Link
-                to="/kunye"
+                to="/iletisim"
                 className="inline-flex items-center gap-2 text-xs font-semibold text-slate-500 hover:text-slate-800 transition-colors"
               >
-                Yasal Sicil &amp; Bilgiler
+                İletişim &amp; Adres Bilgileri
               </Link>
             </div>
           </div>

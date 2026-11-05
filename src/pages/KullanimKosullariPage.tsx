@@ -71,7 +71,7 @@ export default function KullanimKosullariPage() {
                   Taraf ve Hizmet Sağlayıcı Bilgisi
                 </h2>
                 <p>
-                  Bu internet sitesi, 5651 Sayılı Kanun uyarınca "İçerik Sağlayıcı" sıfatıyla <strong>Aya Elektrik - Elektrik Arıza Bakım Onarım Servisi</strong> (Şişli V.D. 0980543219, Mecidiyeköy Mah. Büyükdere Cad. No:124 Şişli/İstanbul) tarafından işletilmektedir.
+                  Bu internet sitesi, 5651 Sayılı Kanun uyarınca "İçerik Sağlayıcı" sıfatıyla <strong>Aya Elektrik - 7/24 Nöbetçi Elektrik &amp; Arıza Bakım Onarım Servisi</strong> (Maltepe Mah. Yedikule Çırpıcı Yolu No: 33, Zeytinburnu / İstanbul) tarafından işletilmektedir.
                 </p>
               </div>
 

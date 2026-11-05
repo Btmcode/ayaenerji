@@ -181,12 +181,6 @@ export default function Navbar() {
       icon: <Users className="w-4 h-4 text-emerald-500" />
     },
     {
-      label: "Künye & Şirket Bilgileri",
-      href: "/kunye",
-      desc: "Yasal unvan, MERSİS, vergi dairesi ve oda sicil kayıtları",
-      icon: <FileText className="w-4 h-4 text-slate-500" />
-    },
-    {
       label: "Editoryal İlkeler (E-E-A-T)",
       href: "/editoryal-ilkeler",
       desc: "Uzman usta denetimli yayın politikası ve doğruluk standardı",
